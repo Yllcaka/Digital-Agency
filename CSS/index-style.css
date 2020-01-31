@@ -1,0 +1,65 @@
+.active hr{
+    margin-left: 18%;
+}
+#website-for-you .btn, #creative-age .btn, .project-question .btn{
+    background-color: #FF0266;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+#website-for-you{
+    background-color:rgba(19, 19, 19, 0.78);
+    color: #FFFFFF;
+}
+#website-for-you span{
+    font-weight: 700;
+}
+#website-for-you h1, .pink-dot{
+    font-weight: 400;
+}
+#website-for-you p{
+    font-size: 13px;
+}
+#modal {
+    background-color: #FF0266;
+}
+.pink-dot{
+    color: #FF0266;
+    font-weight: 500 !important;
+}
+.blackbar-middle{
+    background-color: #131313;
+}
+/* .blackbar-middle > div{
+    padding: ;
+} */
+.shadow46and2{
+    height: 300px;
+}
+#creative-age{
+    background-color: #F9F9F9;
+}
+.pink-list li::before{
+    content: "•";
+    color: #FF0266 !important;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+    font-weight: 800;
+}
+#creative-age h2{
+    font-size: 36px !important;
+}
+.pink-border{
+    border: 2px solid #FF0266;
+}
+
+
+.pink-shadow{
+    background-color: #FFFFFF;
+    border-top: 10px solid #FF0266;
+    box-shadow: 1px 1px 5px 0px rgba(219,219,219,1);
+}
+#carouselExampleControls i{
+    color: black;
+}

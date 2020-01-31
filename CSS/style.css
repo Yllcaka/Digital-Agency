@@ -1,0 +1,117 @@
+*{
+    font-family: "Ubuntu";
+    
+}
+.navbar-toggler{
+    border-width: 2px;
+    border-color: rgb(235, 27, 110) !important;
+    color: rgb(235, 27, 110)!important;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    color: #FFFFFF !important;
+    font-size: 11px;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover{
+    color: rgb(221, 47, 117) !important;
+    
+}
+header{
+    background-color: #131313;
+}
+.shadow46and2{
+    box-shadow: 1px 1px 5px 0px rgba(219,219,219,1);
+    transition: 0.3s ease-in-out;
+}
+.shadow46and2:hover{
+    box-shadow: 4px 4px 5px 3px rgba(219,219,219,1);
+    
+}
+.contact-item{
+    font-size: 11px;
+    color: #FF0266 !important;
+    border: 1.5px solid #FF0266;
+    border-radius: 4px;
+    padding: 7px 25px!important;
+    background-color: transparent !important;
+}
+.contact-item:hover{
+    background-color: rgb(180, 4, 75) !important;
+}
+.active .nav-link{
+    padding-bottom: 0px !important;
+}
+.active hr{
+    border: 1px solid #FF0266;
+    margin: 0;
+    width: 10px;
+}
+.pink-dot{
+    color: #FF0266;
+    font-weight: 500 !important;
+}
+footer li, footer a{
+    transition: 0.1s ease-in-out;
+    color: #BEBABA;
+}
+footer li:hover ,footer a:hover{
+    color: rgb(247, 138, 181);
+    
+}
+footer li{
+    list-style: none;
+}
+.icons i{
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: 0.1s ease-in-out;
+}
+.icons a{
+    width: 20px;
+    height: 20px;
+    background-color: #FF0266;
+    border: 2px solid #FF0266;
+    border-radius: 4px;
+}
+footer i:hover{
+    background-color: #ffffff;
+    color: #FF0266;
+    
+}
+#two-laptop h1{
+    font-size: 62px !important;
+}
+#two-laptop p{
+    font-size: 15px !important;
+}
+
+.btn{
+    background-color: #FF0266;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+.project-question{
+    background-color: #F9F9F9;
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 768px){
+    .active hr{
+        margin-left: 1px !important;
+    }
+    .contact-item{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 575px){
+    footer{
+        text-align: center;
+    }
+}
