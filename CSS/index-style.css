@@ -15,13 +15,13 @@
 }
 #website-for-you h1{
     font-size: 64px;
+    width: 59%;
 }
 #website-for-you{
     font-weight: 700;
 }
 #website-for-you p{
     font-weight: 600;
-    /* font-size: 18px; */
     padding-left: 0px !important;
 }
 #modal {
@@ -43,14 +43,18 @@
 #What-we-do{
     margin-top: 150px;
 }
-/* .blackbar-middle > div{
-    padding: ;
-} */
 .shadow46and2{
-    height: 300px;
+    height: 80%;
 }
 #creative-age{
     background-color: #F9F9F9;
+}
+#creative-age .col-md-6{
+    margin-top: 50px;
+}
+#creative-age h2{
+    width: 70%;
+    margin-top: 30px;
 }
 .pink-list li::before{
     content: "•";
@@ -114,5 +118,8 @@
     .carouselbuttons{
         width: 100%;
         justify-items: center;
+    }
+    #website-for-you{
+        height: 30% !important;
     }
 }
