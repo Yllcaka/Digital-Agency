@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
+    height: 775px;
 }
 #website-for-you h1{
     font-size: 64px;
@@ -34,9 +35,13 @@
     background-color: #131313;
     position:absolute; 
     justify-content: center;
-    top:450px; 
+    top:700px; 
     left:1%;
     right: 1%; 
+    margin-top: 3rem;
+}
+#What-we-do{
+    margin-top: 150px;
 }
 /* .blackbar-middle > div{
     padding: ;
@@ -93,6 +98,10 @@
         top:0; 
         left:0;
         right: 0; 
+        margin-top:0;
+    }
+    #What-we-do{
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 768px){

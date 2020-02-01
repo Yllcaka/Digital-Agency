@@ -5,7 +5,10 @@
     margin-top: ;
 } */
 
-[aria-expanded="true"]{
-    border: 2px solid #FF0266;
-    border-radius: 4px;
+.pink-heading{
+    border: 2px solid #FF0266 ;
+}
+.collapsed{
+    border: 2px solid #ddd;
+    border-radius: 4px
 }
