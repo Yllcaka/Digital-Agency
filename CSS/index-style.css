@@ -7,18 +7,21 @@
     font-size: 11px;
 }
 #website-for-you{
-    background-color:rgba(19, 19, 19, 0.78);
-    background-image: url("images/home-intro.png") !important;
+    background-image: url(../images/home-intro.png) !important;
+    background-size: cover;
+    background-position: center;
     color: #FFFFFF;
 }
-#website-for-you span{
+#website-for-you h1{
+    font-size: 64px;
+}
+#website-for-you{
     font-weight: 700;
 }
-#website-for-you h1, .pink-dot{
-    font-weight: 400;
-}
 #website-for-you p{
-    font-size: 13px;
+    font-weight: 600;
+    /* font-size: 18px; */
+    padding-left: 0px !important;
 }
 #modal {
     background-color: #FF0266;
@@ -65,6 +68,29 @@
 .pink-shadow:hover{
     box-shadow: 4px 4px 5px 3px rgba(219,219,219,1);
 }
-#carouselExampleControls i{
-    color: black;
+#carouselControls i{
+    color: black !important;
+    font-size: 60px;
+    transition: 0.3s ease-in-out;
+}
+#carouselControls i:hover{
+    color: #FF0266 !important; 
+}
+#carouselControls p{
+    font-size: 32px;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
+}
+@media screen and (max-width: 768px){
+    .carousel-control-next, .carousel-control-prev {
+        position: static;
+        display: inline;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .carouselbuttons{
+        width: 100%;
+        justify-items: center;
+    }
 }
