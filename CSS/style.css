@@ -95,6 +95,7 @@ footer i:hover{
     background-color: #FF0266;
     color: #FFFFFF;
     font-size: 11px;
+    transition: 0.3s ease-in-out;
 }
 .project-question{
     background-color: #F9F9F9;
