@@ -13,6 +13,20 @@
     color: #FF0266;
     
 }
+h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+input ,textarea{
+    font-size: 24px !important;
+    color: #131313;
+}
+textarea{
+    resize: none;
+}
+form{
+    width: 50%;
+}
 /* .shadow46and2 div:last-child{
     margin-right: 0px !important;
 } */
@@ -20,3 +34,9 @@
     background-color: ;
     color: black !important;
 } */
+
+@media screen and (max-width: 991px){
+    form{
+        width: 100%;
+    }
+}
