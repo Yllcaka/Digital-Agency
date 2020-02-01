@@ -32,6 +32,11 @@
 }
 .blackbar-middle{
     background-color: #131313;
+    position:absolute; 
+    justify-content: center;
+    top:450px; 
+    left:1%;
+    right: 1%; 
 }
 /* .blackbar-middle > div{
     padding: ;
@@ -81,6 +86,14 @@
 }
 .carousel-control-next, .carousel-control-prev{
     opacity: 1 !important;
+}
+@media screen and (max-width: 992px){
+    .blackbar-middle{
+        position: static;
+        top:0; 
+        left:0;
+        right: 0; 
+    }
 }
 @media screen and (max-width: 768px){
     .carousel-control-next, .carousel-control-prev {
