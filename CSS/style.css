@@ -68,18 +68,18 @@ footer li{
     list-style: none;
 }
 .icons i{
-    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    width: 30px;
+    font-size: 16px;
     color: #FFFFFF;
     transition: 0.1s ease-in-out;
-}
-.icons a{
-    width: 20px;
-    height: 20px;
     background-color: #FF0266;
     border: 2px solid #FF0266;
     border-radius: 4px;
 }
-footer i:hover{
+
+footer .icons i:hover{
     background-color: #ffffff;
     color: #FF0266;
     
