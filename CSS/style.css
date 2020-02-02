@@ -1,6 +1,7 @@
 *{
     font-family: "Ubuntu";
     scroll-behavior: smooth;
+    /* overflow-x:hidden; */
 }
 .navbar-toggler i{
     transition: 0.5s ease-in-out;

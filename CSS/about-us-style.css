@@ -13,17 +13,18 @@
 }
 #creative-people .text{
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 #creative-people .text h2{
     font-size: 39px !important;
 }
 #creative-people .text p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #counter .row > div{
     color: #E0E0E0;
-    padding: 100px;
+    padding: 5%;
     border-top: 1px solid #E0E0E0;
     border-bottom:  1px solid #E0E0E0;
     text-align: center;
@@ -38,13 +39,26 @@
     color: #FF0266;
     margin-bottom: 0px !important;
 }
-
-@media screen and (max-width: 991px){
-    #counter .row > div:nth-child(2){
-        border-right: 0px;
+@media screen and (max-width:991px) and (min-width:768px){
+    #creative-people img{
+        padding-top: 250px;
+    }
+    #two-laptop > div{
+        margin-top: 0 !important;
+    }
+    #two-laptop img{
+        margin-top: 70px;
     }
 }
 @media screen and (max-width: 767px){
+    #counter .row > div:nth-child(2){
+        border-right: 0px;
+    }
+    /* h1,h2{
+        font-size: 24px !important;
+    } */
+}
+@media screen and (max-width: 575px){
     #counter .row > div{
         border-right: 0px !important;
     }
