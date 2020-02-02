@@ -6,11 +6,21 @@
     border-color: rgb(245, 51, 129) !important;
     background-color: rgb(245, 51, 129) !important;
 }
+#map{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
 .stuff i{
     color: #FF0266;
+    padding-right: 20px;
+    transition: 0.3s ease-in-out;
+}
+.stuff i:hover{
+    color: rgb(255, 159, 197);
 }
 .shadow46and2{
-    height: 200px;
+    height: 90%;
     border-bottom: 10px solid #FF0266;
 }
 .shadow46and2 a{
@@ -19,7 +29,6 @@
 }
 .shadow46and2 a:hover{
     color: #FF0266;
-    
 }
 h2{
     font-weight: 700;
@@ -42,9 +51,17 @@ form{
     background-color: ;
     color: black !important;
 } */
+/* .map iframe{
+    height: 50% !important;
+} */
 
 @media screen and (max-width: 991px){
     form{
         width: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    #map iframe{
+        height: 200px;
     }
 }

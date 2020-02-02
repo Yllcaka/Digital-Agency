@@ -4,11 +4,20 @@
 /* #main{
     margin-top: ;
 } */
-
+#main .col-md-6:nth-child(1){
+    padding-top: 15%;
+    padding-bottom:30px;
+    background-color: white;
+}
+.collapsing{
+    transition: 0.5s ease-in-out !important;
+}
 .pink-heading{
     border: 2px solid #ddd;
     border-radius: 4px;
+    transition: 0.3s ease-in-out;
 }
 [aria-expanded="true"]{
     border: 2px solid #FF0266 ;
 }
+

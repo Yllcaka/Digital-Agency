@@ -76,7 +76,7 @@ header{
     font-weight: 500 !important;
 }
 footer li, footer a{
-    transition: 0.1s ease-in-out;
+    transition: 0.2s ease-in-out;
     color: #BEBABA;
 }
 footer li:hover ,footer a:hover{
@@ -92,10 +92,11 @@ footer li{
     width: 30px;
     font-size: 16px;
     color: #FFFFFF;
-    transition: 0.1s ease-in-out;
+    transition: 0.5s ease-in-out;
     background-color: #FF0266;
     border: 2px solid #FF0266;
     border-radius: 4px;
+    margin-top: 10px;
 }
 
 footer .icons i:hover{
