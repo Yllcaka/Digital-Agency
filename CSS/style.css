@@ -1,11 +1,26 @@
 *{
     font-family: "Ubuntu";
-    
+    scroll-behavior: smooth;
+}
+.navbar-toggler i{
+    transition: 0.5s ease-in-out;
 }
 .navbar-toggler{
     border-width: 2px;
     border-color: rgb(235, 27, 110) !important;
     color: rgb(235, 27, 110)!important;
+    transition: 0.5s ease-in-out;
+}
+.navbar-toggler:hover i, .navbar-toggler[aria-expanded="true"] i{
+    color: #131313;
+}
+.navbar-toggler:hover,.navbar-toggler[aria-expanded="true"]{
+    background-color: #FF0266;
+    border-color: #FF0266 !important;
+}
+.navbar-toggler[aria-expanded="true"]:hover{
+    border-color: rgb(245, 51, 129) !important;
+    background-color: rgb(245, 51, 129) !important;
 }
 a{
     text-decoration: none !important;
@@ -13,7 +28,7 @@ a{
 ul{
     list-style: none;
 }
-.btn{
+.btn ,.navbar-toggler{
     outline: none !important;
     box-shadow: none !important;
 }

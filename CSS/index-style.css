@@ -108,12 +108,13 @@
         margin-top: 0;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 506px){
     .carousel-control-next, .carousel-control-prev {
         position: static;
         display: inline;
         margin: 0 auto;
         justify-content: center;
+        padding: 0 21%;
     }
     .carouselbuttons{
         width: 100%;
@@ -121,5 +122,38 @@
     }
     #website-for-you{
         height: 30% !important;
+    }
+
+}
+@media screen and (max-width:506px){
+    .carousel-control-next, .carousel-control-prev {
+        padding: 0 20%;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .col-md-4:nth-child(3) .shadow46and2 h3{
+        word-break: break-word;
+        width: 80%;
+    }
+}
+@media screen and (max-width:408px){
+    .carousel-control-next, .carousel-control-prev {
+        padding: 0 19%;
+    }
+}
+
+@media screen and (max-width:343px){
+    .carousel-control-next, .carousel-control-prev {
+        padding: 0 18%;
+    }
+}
+@media screen and (max-width:296px){
+    .carousel-control-next, .carousel-control-prev {
+        padding: 0 17%;
+    }
+}
+@media screen and (max-width:262px){
+    .carousel-control-next, .carousel-control-prev {
+        padding: 0 12%;
     }
 }
