@@ -39,6 +39,7 @@
     left:1%;
     right: 1%; 
     margin-top: 3rem;
+    padding-left: 3rem;
 }
 #What-we-do{
     margin-top: 150px;
@@ -106,6 +107,14 @@
     }
     #What-we-do{
         margin-top: 0;
+    }
+}
+@media screen and (max-width:575px){
+    .blackbar-middle{
+        padding-left: 0;
+    }
+    .blackbar-middle > div{
+        text-align: center;
     }
 }
 @media screen and (max-width: 506px){
