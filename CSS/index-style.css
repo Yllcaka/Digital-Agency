@@ -13,6 +13,9 @@
     color: #FFFFFF;
     height: 775px;
 }
+#website-for-you >div{
+    padding-top: 6rem
+}
 #website-for-you h1{
     font-size: 64px;
     width: 59%;
@@ -109,12 +112,30 @@
         margin-top: 0;
     }
 }
+@media screen and (max-width:768px){
+    #website-for-you{
+        background-size: cover;
+        background-position: center;
+        height: 650px;
+    }
+    #website-for-you >div{
+        padding-top: 2rem;
+    }
+}
 @media screen and (max-width:575px){
     .blackbar-middle{
         padding-left: 0;
     }
     .blackbar-middle > div{
         text-align: center;
+    }
+    #website-for-you{
+        background-size: cover;
+        background-position: center;
+        height: 620px;
+    }
+    #website-for-you >div{
+        padding-top: 1rem;
     }
 }
 @media screen and (max-width: 506px){
