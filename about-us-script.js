@@ -15,17 +15,28 @@ function animateValue(id, start, end, duration,cnt) {
 
 // var interval = setInterval(function(){
 //     if (document.getElementById("counter")) { 
-//         animateValue("count1", 0, 25 , 1000,1);
-//     animateValue("count2",0,1500,10,4);
-//     animateValue("count3",0,30,1000,1);
-//     animateValue("count4",0,460,300,2);
+//         
 //          jwplayer().stop(); 
 //          clearInterval(interval);
 //     }
 // }, 1000);
+$("#counter").waypoint(function() {
+    // alert('You have scrolled to an entry.');
+    if($("#count1").is(":empty")){
+        animateValue("count1", 0, 25 , 1000,1);
+        animateValue("count2",0,1500,10,4);
+        animateValue("count3",0,30,1000,1);
+        animateValue("count4",0,460,300,2);
+    }
+}, {
+    offset: '88%'
+});
+var $counter = $()
+counter.waypoint(function(){
+    if(getElementById("count1"))
+    animateValue("count1", 0, 25 , 1000,1);
+    animateValue("count2",0,1500,10,4);
+    animateValue("count3",0,30,1000,1);
+    animateValue("count4",0,460,300,2);
+})
 
-
-animateValue("count1", 0, 25 , 1000,1);
-animateValue("count2",0,1500,10,4);
-animateValue("count3",0,30,1000,1);
-animateValue("count4",0,460,300,2);
