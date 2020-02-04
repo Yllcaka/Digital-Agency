@@ -7,9 +7,12 @@
     background-color: transparent;
     color: #131313;
 }
-#creative-people .btn:hover{
+#creative-people .nav-tabs{
+    border-bottom: 0;
+}
+#creative-people .btn:hover, #creative-people .nav-item .active,[aria-selected="true"]{
     border-color: #FF0266;
-    color: #FF0266;
+    color: #FF0266 !important;
 }
 #creative-people .text{
     margin-top: 100px;
