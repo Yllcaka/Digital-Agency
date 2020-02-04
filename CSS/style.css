@@ -6,6 +6,13 @@
 body{
     overflow-x: hidden;
 }
+.topping{
+    margin-top:60px;
+}
+:target{
+    padding-top:60px; /* = to height of navbar */
+    margin-top:-60px;
+  }
 .navbar-toggler i{
     transition: 0.5s ease-in-out;
 }
@@ -47,6 +54,7 @@ ul{
 }
 header{
     background-color: #131313;
+    /* margin-bottom: 200px !; */
 }
 .shadow46and2{
     box-shadow: 1px 1px 5px 0px rgba(219,219,219,1);

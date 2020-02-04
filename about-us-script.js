@@ -13,6 +13,18 @@ function animateValue(id, start, end, duration,cnt) {
     }, stepTime);
 }
 
+// var interval = setInterval(function(){
+//     if (document.getElementById("counter")) { 
+//         animateValue("count1", 0, 25 , 1000,1);
+//     animateValue("count2",0,1500,10,4);
+//     animateValue("count3",0,30,1000,1);
+//     animateValue("count4",0,460,300,2);
+//          jwplayer().stop(); 
+//          clearInterval(interval);
+//     }
+// }, 1000);
+
+
 animateValue("count1", 0, 25 , 1000,1);
 animateValue("count2",0,1500,10,4);
 animateValue("count3",0,30,1000,1);
