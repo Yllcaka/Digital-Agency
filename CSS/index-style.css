@@ -99,6 +99,7 @@
 }
 .carousel-control-next, .carousel-control-prev{
     opacity: 1 !important;
+    transition: 1s ease-in-out;
 }
 @media screen and (max-width: 992px){
     .blackbar-middle{

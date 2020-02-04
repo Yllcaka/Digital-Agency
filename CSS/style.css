@@ -3,6 +3,9 @@
     scroll-behavior: smooth;
     /* overflow-x:hidden; */
 }
+body{
+    overflow-x: hidden;
+}
 .navbar-toggler i{
     transition: 0.5s ease-in-out;
 }
