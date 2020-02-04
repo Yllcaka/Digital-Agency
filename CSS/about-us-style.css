@@ -1,6 +1,9 @@
 .active hr{
     margin-left: 12%;
 }
+#creative-people{
+    margin-top: 100px;
+}
 #creative-people .btn{
     font-size: 16px !important;
     border-color: transparent;
@@ -13,6 +16,10 @@
 #creative-people .btn:hover, #creative-people .nav-item .active,[aria-selected="true"]{
     border-color: #FF0266;
     color: #FF0266 !important;
+}
+#creative-people ul a{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #creative-people .text{
     margin-top: 100px;
@@ -64,5 +71,10 @@
 @media screen and (max-width: 575px){
     #counter .row > div{
         border-right: 0px !important;
+    }
+    #creative-people ul a{
+        width: 70%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
