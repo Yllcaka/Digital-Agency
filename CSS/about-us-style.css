@@ -31,8 +31,16 @@
 #creative-people .text p{
     font-size: 13px;
 }
-
+#qualified h1{
+    font-weight: 600;
+    font-size:2rem !important;
+    margin-bottom: 5%;
+}
+#counter{
+    margin-bottom: 50px;
+}
 #counter .row > div{
+    font-weight: 800;
     color: #E0E0E0;
     padding: 5%;
     border-top: 1px solid #E0E0E0;

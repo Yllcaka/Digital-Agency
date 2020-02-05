@@ -116,6 +116,13 @@ footer .icons i:hover{
     color: #FF0266;
     
 }
+footer .copyright{
+    color: #BEBABA;
+    margin-top: 10%;
+}
+footer > .container{
+    padding-bottom: 15px !important;
+}
 #two-laptop h1{
     font-size: 62px !important;
 }
@@ -134,7 +141,7 @@ footer .icons i:hover{
     margin-top: 100px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .active hr{
         margin-left: 1px !important;
     }
@@ -145,5 +152,10 @@ footer .icons i:hover{
 @media screen and (max-width: 575px){
     footer{
         text-align: center;
+    }
+}
+@media screen and (min-width: 575px) and (max-width:767px){
+    footer .row > div{
+        padding-left: 70px;
     }
 }
