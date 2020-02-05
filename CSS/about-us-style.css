@@ -69,8 +69,19 @@
     }
 }
 @media screen and (max-width: 767px){
+    #two-laptop .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    #two-laptop .row > div:nth-child(2){
+        margin-top: 0 !important;
+        padding-bottom: 20px;
+    }
     #counter .row > div:nth-child(2){
         border-right: 0px;
+    }
+    .text{
+        margin-top: 0 !important;
     }
     /* h1,h2{
         font-size: 24px !important;

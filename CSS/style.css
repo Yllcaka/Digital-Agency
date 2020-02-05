@@ -94,6 +94,14 @@ header{
     color: #FF0266;
     font-weight: 500 !important;
 }
+.trans--grow{
+    -webkit-transition: width 1s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s  ease-in-out !important;
+    width : 0% !important;
+  }
+  .grow{
+    width:10px !important;
+  }
 footer li, footer a{
     transition: 0.2s ease-in-out;
     color: #BEBABA;

@@ -1,9 +1,9 @@
 .active hr{
     margin-left: 14%;
 }
-/* #main{
-    margin-top: ;
-} */
+#main{
+    margin-top: 40px;
+}
 .accordion{
     margin-top:15%;
 }
@@ -23,4 +23,13 @@
 [aria-expanded="true"]{
     border: 2px solid #FF0266 ;
 }
+@media screen and (max-width:767px){
+    #main{
+        margin-top: 0px;
+    }
+    #main .col-md-6:nth-child(1){
+        padding-top: 30px;
+        padding-bottom:30px;
 
+    }
+}

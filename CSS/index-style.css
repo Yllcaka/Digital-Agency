@@ -102,9 +102,6 @@
 #carouselControls i:hover, #carouselControls a:hover i{
     color: #FF0266 !important; 
 }
-#carouselControls p{
-    font-size: 32px;
-}
 .carousel-control-next, .carousel-control-prev{
     opacity: 1 !important;
     transition: 1s ease-in-out;
