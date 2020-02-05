@@ -52,13 +52,18 @@
 }
 #creative-age{
     background-color: #F9F9F9;
+    padding-bottom: 75px;
 }
-#creative-age .col-md-6{
+#creative-age .col-lg-6{
     margin-top: 50px;
 }
 #creative-age h2{
     width: 70%;
     margin-top: 30px;
+    padding-bottom: 3rem;
+}
+.pink-list{
+    padding-top: 3rem;
 }
 .pink-list li::before{
     content: "•";
@@ -112,8 +117,17 @@
     #What-we-do{
         margin-top: 0;
     }
+    .pink-list{
+        padding-top: 0;
+    }
+    #creative-age h2{
+        padding-bottom: 0;
+    }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
+    #creative-age{
+        padding-bottom: 10px;
+    }
     #website-for-you{
         background-size: cover;
         background-position: center;
@@ -161,7 +175,7 @@
         padding: 0 20%;
     }
 }
-@media screen and (max-width: 992px) and (min-width: 768px){
+@media screen and (max-width: 991px) and (min-width: 768px){
     .col-md-4:nth-child(3) .shadow46and2 h3{
         word-break: break-word;
         width: 80%;

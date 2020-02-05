@@ -86,3 +86,14 @@
         padding-right: 0;
     }
 }
+@media screen and (max-width:991px) and (min-width:768px){
+    #creative-people li{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #creative-people ul a{
+        width: 70%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

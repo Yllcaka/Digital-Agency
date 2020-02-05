@@ -26,5 +26,3 @@ $("#counter").waypoint(function() {
 }, {
     offset: '95%'
 });
-
-

@@ -43,24 +43,15 @@ textarea{
 }
 form{
     width: 50%;
+    margin-bottom:75px;
 }
-/* .shadow46and2 div:last-child{
-    margin-right: 0px !important;
-} */
-/* .contact-item{
-    background-color: ;
-    color: black !important;
-} */
-/* .map iframe{
-    height: 50% !important;
-} */
 
 @media screen and (max-width: 991px){
     form{
         width: 100%;
     }
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 575px){
     #map iframe{
         height: 200px;
     }

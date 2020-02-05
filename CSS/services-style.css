@@ -4,6 +4,9 @@
 /* #main{
     margin-top: ;
 } */
+.accordion{
+    margin-top:15%;
+}
 #main .col-md-6:nth-child(1){
     padding-top: 15%;
     padding-bottom:30px;
