@@ -81,7 +81,10 @@
     border: 2px solid #FF0266;
 }
 
-
+#Modal iframe{
+    padding:10px;
+    
+}
 .pink-shadow{
     background-color: #FFFFFF;
     border-top: 10px solid #FF0266;
@@ -96,7 +99,7 @@
     font-size: 60px;
     transition: 0.3s ease-in-out;
 }
-#carouselControls i:hover{
+#carouselControls i:hover, #carouselControls a:hover i{
     color: #FF0266 !important; 
 }
 #carouselControls p{
@@ -125,6 +128,9 @@
     }
 }
 @media screen and (max-width:767px){
+    #website-for-you h1{
+        font-size: 50px !important;
+    }
     #creative-age{
         padding-bottom: 10px;
     }
@@ -138,6 +144,7 @@
     }
 }
 @media screen and (max-width:575px){
+    
     .blackbar-middle{
         padding-left: 0;
     }
@@ -154,6 +161,12 @@
     }
 }
 @media screen and (max-width: 506px){
+    #website-for-you h1{
+        font-size: 36px !important;
+    }
+    #website-for-you p{
+        font-size: 12px !important;
+    }
     .carousel-control-next, .carousel-control-prev {
         position: static;
         display: inline;
