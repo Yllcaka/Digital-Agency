@@ -96,6 +96,9 @@
         padding-left: 0;
         padding-right: 0;
     }
+    #creative-people .text h2{
+        font-size: 30px !important;
+    }
 }
 @media screen and (max-width:991px) and (min-width:768px){
     #creative-people li{

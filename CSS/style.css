@@ -174,6 +174,12 @@ footer > .container{
     footer{
         text-align: center;
     }
+    #two-laptop h1{
+        font-size: 39px !important;
+    }
+    .project-question h2{
+        font-size: 24px !important;
+    }
 }
 @media screen and (min-width: 576px) and (max-width:767px){
     footer .row > div{

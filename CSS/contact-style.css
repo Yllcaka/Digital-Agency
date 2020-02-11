@@ -55,4 +55,7 @@ form{
     #map iframe{
         height: 200px;
     }
+    #forma h2{
+        font-size: 28px !important;
+    }
 }
