@@ -107,8 +107,12 @@ footer li, footer a{
     color: #BEBABA;
 }
 footer li:hover ,footer a:hover{
-    color: rgb(247, 138, 181);
+    color: rgb(247, 138, 181) !important;
     
+}
+footer .text-center >a{
+    display: block;
+    color:black
 }
 footer li{
     list-style: none;
