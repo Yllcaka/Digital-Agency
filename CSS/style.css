@@ -38,7 +38,7 @@ a{
 ul{
     list-style: none;
 }
-.btn ,.navbar-toggler{
+.btn ,.navbar-toggler , .form-group > *{
     outline: none !important;
     box-shadow: none !important;
 }

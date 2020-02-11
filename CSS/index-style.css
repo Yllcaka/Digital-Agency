@@ -30,6 +30,11 @@
 #modal {
     background-color: #FF0266;
 }
+.modal-content{
+    border:4px solid #FF0266;
+    border-radius: 4px;
+    height: 100%;
+}
 .pink-dot{
     color: #FF0266;
     font-weight: 500 !important;
