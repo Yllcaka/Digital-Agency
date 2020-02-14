@@ -13,8 +13,11 @@
 
 .stuff i{
     color: #FF0266;
-    padding-right: 20px;
+    
     transition: 0.3s ease-in-out;
+}
+.stuff a{
+    margin-right: 20px;
 }
 .stuff i:hover{
     color: rgb(255, 159, 197);
