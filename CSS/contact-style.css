@@ -51,6 +51,11 @@ form{
         width: 100%;
     }
 }
+@media screen and (max-width:767px){
+    #map iframe{
+        height: 300px;
+    }
+}
 @media screen and (max-width: 575px){
     #map iframe{
         height: 200px;
